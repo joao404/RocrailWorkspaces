@@ -1,0 +1,5 @@
+MecBoppard/lic.dat
+MecBoppard/*.bak
+MecBoppard/trace/*.trc
+MecBoppard/backup/*.xml
+MecBoppard/abox

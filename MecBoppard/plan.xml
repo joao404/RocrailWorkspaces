@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plan rocrailversion="2.1.999-136" rocrailpwd="C:\Users\Marcel\Documents\Entwicklung\Projekte\Rocrail\RocrailMec" rocrailos="win64" rocrailip="192.168.56.1" donkey="false" healthy="true" title="New Plan" remark="">
+  <zlevel title="Level 0"/>
+  <boosterlist/>
+  <lightctrl converted="true"/>
+  <competition/>
+  <zlevel title="Nebenbahn" z="10" tabidx="-1" symbolprefix=""/>
+  <swlist>
+    <sw type="crossing" rectcrossing="false" dir="true" id="sw1" x="3" y="12" z="10" testing="false" switched="0" ori="north" pre_move_x="3" pre_move_y="12" pre_move_z="10"/>
+    <sw type="right" id="sw4" x="2" y="13" z="10" testing="false" switched="0" ori="north" pre_move_x="2" pre_move_y="13" pre_move_z="10"/>
+    <sw type="right" id="sw8" x="4" y="11" z="10" testing="false" switched="0" ori="north" pre_move_x="4" pre_move_y="11" pre_move_z="10"/>
+    <sw type="right" id="sw9" x="2" y="4" z="10" testing="false" switched="0" ori="north"/>
+    <sw type="right" ori="south" id="sw10" x="3" y="4" z="10" testing="false" switched="0"/>
+    <sw type="left" id="sw11" x="5" y="4" z="10" testing="false" switched="0" ori="south"/>
+    <sw type="left" id="sw12" x="4" y="4" z="10" testing="false" switched="0" ori="north"/>
+    <sw type="left" ori="north" id="sw13" x="3" y="3" z="10" testing="false"/>
+    <sw type="right" id="sw14" x="13" y="17" z="10" testing="false" pre_move_x="13" pre_move_y="18" pre_move_z="10"/>
+    <sw type="right" id="sw15" x="14" y="18" z="10" testing="false" pre_move_x="14" pre_move_y="19" pre_move_z="10"/>
+    <sw type="right" id="sw16" x="24" y="18" z="10" testing="false" switched="0" ori="east" pre_move_x="25" pre_move_y="18" pre_move_z="10"/>
+    <sw type="right" id="sw17" x="25" y="19" z="10" testing="false" switched="0" ori="east" pre_move_x="26" pre_move_y="19" pre_move_z="10"/>
+    <sw type="right" id="sw18" x="26" y="20" z="10" testing="false" switched="0" ori="east" pre_move_x="27" pre_move_y="20" pre_move_z="10"/>
+    <sw type="left" id="sw19" x="30" y="20" z="10" testing="false" switched="0" ori="east" pre_move_x="32" pre_move_y="20" pre_move_z="10" locid=""/>
+    <sw type="left" id="sw20" x="37" y="20" z="10" testing="false" pre_move_x="38" pre_move_y="20" pre_move_z="10"/>
+    <sw type="left" id="sw21" x="38" y="19" z="10" testing="false"/>
+  </swlist>
+  <tklist>
+    <tk type="straight" id="tk1" x="2" y="12" z="10" ori="north" pre_move_x="2" pre_move_y="12" pre_move_z="10"/>
+    <tk type="straight" ori="north" id="tk2" x="2" y="11" z="10" pre_move_x="2" pre_move_y="11" pre_move_z="10"/>
+    <tk type="straight" ori="north" id="tk8" x="3" y="11" z="10" pre_move_x="3" pre_move_y="11" pre_move_z="10"/>
+    <tk type="curve" id="tk26" x="4" y="12" z="10" ori="south" pre_move_x="4" pre_move_y="12" pre_move_z="10"/>
+    <tk type="curve" id="tk27" x="5" y="11" z="10" ori="south" pre_move_x="5" pre_move_y="11" pre_move_z="10"/>
+    <tk type="curve" id="tk28" x="2" y="14" z="10" ori="south"/>
+    <tk type="curve" id="tk29" x="1" y="14" z="10" ori="north"/>
+    <tk type="curve" id="tk30" x="1" y="15" z="10" ori="south"/>
+    <tk type="straight" id="tk37" x="3" y="14" z="10" ori="north"/>
+    <tk type="curve" ori="east" id="tk40" x="3" y="16" z="10"/>
+    <tk type="straight" ori="east" id="tk42" x="5" y="17" z="10"/>
+    <tk type="straight" ori="east" id="tk48" x="11" y="17" z="10"/>
+    <tk type="straight" ori="east" id="tk49" x="12" y="17" z="10" pre_move_x="12" pre_move_y="18" pre_move_z="10" cmd="move"/>
+    <tk type="curve" id="tk50" x="4" y="3" z="10"/>
+    <tk type="curve" id="tk51" x="3" y="2" z="10"/>
+    <tk type="curve" id="tk52" x="2" y="2" z="10" ori="east"/>
+    <tk type="curve" ori="east" id="tk54" x="1" y="1" z="10"/>
+    <tk type="curve" id="tk56" x="13" y="18" z="10" ori="east" pre_move_x="13" pre_move_y="19" pre_move_z="10" cmd="move"/>
+    <tk type="curve" id="tk57" x="14" y="19" z="10" ori="east" pre_move_x="14" pre_move_y="20" pre_move_z="10" cmd="move"/>
+    <tk type="straight" id="tk58" x="14" y="17" z="10" pre_move_x="14" pre_move_y="18" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk59" x="15" y="17" z="10" pre_move_x="15" pre_move_y="18" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk60" x="16" y="17" z="10" pre_move_x="16" pre_move_y="18" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk64" x="21" y="17" z="10" pre_move_x="21" pre_move_y="18" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk66" x="15" y="18" z="10" pre_move_x="15" pre_move_y="19" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk67" x="16" y="18" z="10" pre_move_x="16" pre_move_y="19" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk72" x="21" y="18" z="10" pre_move_x="21" pre_move_y="19" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk73" x="15" y="19" z="10" pre_move_x="15" pre_move_y="20" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk74" x="16" y="19" z="10" pre_move_x="16" pre_move_y="20" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk79" x="21" y="19" z="10" pre_move_x="21" pre_move_y="20" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk80" x="22" y="19" z="10" pre_move_x="22" pre_move_y="20" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk81" x="23" y="19" z="10" pre_move_x="23" pre_move_y="20" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk82" x="23" y="18" z="10" pre_move_x="23" pre_move_y="19" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk83" x="22" y="18" z="10" pre_move_x="22" pre_move_y="19" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk84" x="22" y="17" z="10" pre_move_x="22" pre_move_y="18" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk85" x="23" y="17" z="10" pre_move_x="23" pre_move_y="18" pre_move_z="10" cmd="move"/>
+    <tk type="curve" id="tk86" x="24" y="17" z="10" pre_move_x="25" pre_move_y="17" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk90" x="24" y="19" z="10" pre_move_x="25" pre_move_y="19" pre_move_z="10" cmd="move"/>
+    <tk type="curve" id="tk91" x="25" y="18" z="10" pre_move_x="26" pre_move_y="18" pre_move_z="10" cmd="move"/>
+    <tk type="curve" id="tk96" x="26" y="19" z="10" pre_move_x="27" pre_move_y="19" pre_move_z="10" cmd="move"/>
+    <tk type="straight" id="tk97" x="25" y="20" z="10" pre_move_x="26" pre_move_y="20" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk98" x="24" y="20" z="10" pre_move_x="25" pre_move_y="20" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk100" x="23" y="20" z="10" pre_move_x="23" pre_move_y="21" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk101" x="22" y="20" z="10" pre_move_x="22" pre_move_y="21" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk102" x="20" y="20" z="10" pre_move_x="20" pre_move_y="21" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk103" x="21" y="20" z="10" pre_move_x="21" pre_move_y="21" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk104" x="19" y="20" z="10" pre_move_x="19" pre_move_y="21" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk105" x="18" y="20" z="10" pre_move_x="18" pre_move_y="21" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk106" x="17" y="20" z="10" pre_move_x="17" pre_move_y="21" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk107" x="16" y="20" z="10" pre_move_x="16" pre_move_y="21" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk108" x="15" y="20" z="10" pre_move_x="15" pre_move_y="21" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk109" x="14" y="20" z="10" pre_move_x="14" pre_move_y="21" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk110" x="13" y="20" z="10" pre_move_x="13" pre_move_y="21" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk111" x="12" y="20" z="10" pre_move_x="12" pre_move_y="21" pre_move_z="10" cmd="move"/>
+    <tk type="straight" ori="east" id="tk113" x="11" y="20" z="10"/>
+    <tk type="straight" ori="east" id="tk117" x="6" y="20" z="10"/>
+    <tk type="straight" ori="east" id="tk118" x="5" y="20" z="10"/>
+    <tk type="curve" id="tk119" x="4" y="20" z="10" ori="east"/>
+    <tk type="connector" id="tk120" x="3" y="18" z="10" tknr="1" ori="north"/>
+    <tk type="curve" id="tk121" x="4" y="16" z="10"/>
+    <tk type="curve" id="tk122" x="4" y="17" z="10" ori="east"/>
+    <tk type="curve" id="tk123" x="4" y="19" z="10"/>
+    <tk type="curve" id="tk124" x="3" y="19" z="10" ori="east"/>
+    <tk type="curve" id="tk126" x="30" y="19" z="10" ori="north"/>
+    <tk type="straight" ori="east" id="tk131" x="36" y="19" z="10"/>
+    <tk type="straight" ori="east" id="tk132" x="37" y="19" z="10"/>
+    <tk type="straight" ori="east" id="tk133" x="36" y="20" z="10"/>
+    <tk type="straight" ori="east" id="tk137" x="36" y="21" z="10"/>
+    <tk type="straight" ori="east" id="tk138" x="35" y="21" z="10"/>
+    <tk type="straight" ori="east" id="tk139" x="34" y="21" z="10"/>
+    <tk type="straight" ori="east" id="tk140" x="33" y="21" z="10"/>
+    <tk type="curve" id="tk141" x="37" y="21" z="10" ori="south"/>
+    <tk type="curve" ori="south" id="tk142" x="38" y="20" z="10"/>
+    <tk type="straight" id="tk143" x="39" y="19" z="10"/>
+    <tk type="buffer" id="tk144" x="32" y="21" z="10" ori="east"/>
+    <tk type="buffer" id="tk145" x="2" y="3" z="10" ori="north"/>
+    <tk type="straight" id="tk146" x="31" y="19" z="10"/>
+    <tk type="straight" ori="east" id="tk147" x="31" y="20" z="10"/>
+    <tk type="curve" id="tk148" x="40" y="19" z="10" ori="south"/>
+    <tk type="curve" ori="south" id="tk149" x="41" y="18" z="10"/>
+    <tk type="straight" id="tk151" x="41" y="17" z="10" ori="north"/>
+    <tk type="straight" ori="north" id="tk156" x="41" y="12" z="10"/>
+    <tk type="curve" id="tk157" x="41" y="11" z="10"/>
+    <tk type="curve" ori="east" id="tk158" x="40" y="11" z="10"/>
+    <tk type="curve" ori="west" id="tk159" x="40" y="10" z="10"/>
+    <tk type="curve" ori="east" id="tk160" x="39" y="10" z="10"/>
+    <tk type="curve" ori="west" id="tk161" x="39" y="9" z="10"/>
+    <tk type="concurveright" id="tk162" x="38" y="9" z="10" tknr="1" ori="east"/>
+    <tk type="connector" id="tk163" x="1" y="0" z="10" tknr="1" ori="north"/>
+    <tk type="connector" id="tk164" x="0" y="15" z="10" tknr="1" ori="east"/>
+    <tk type="straight" id="tk165" x="3" y="15" z="10" ori="north"/>
+  </tklist>
+  <fblist>
+    <fb id="fb1" x="27" y="20" z="10" state="false" identifier="" gpssid="0" shortcut="false" counter="0" wheelcount="0" carcount="0" countedcars="0" bididir="0" val="0" load="0" regval="0" maxload="0" baseaddr="0" pre_move_x="28" pre_move_y="20" pre_move_z="10"/>
+    <fb curve="true" id="fb2" x="2" y="1" z="10" state="false" identifier="" gpssid="0"/>
+    <fb curve="true" id="fb3" x="40" y="18" z="10" state="false" identifier="" gpssid="0" shortcut="false" counter="0" wheelcount="0" carcount="0" countedcars="0" bididir="0" val="0" load="0" regval="0" maxload="0" ori="north" baseaddr="0"/>
+    <fb id="fb4" x="6" y="17" z="10" state="false" identifier="" gpssid="0" shortcut="false" counter="0" wheelcount="0" carcount="0" countedcars="0" bididir="0" val="0" load="0" regval="0" maxload="0" baseaddr="0"/>
+    <fb ori="north" id="fb6" x="3" y="10" z="10" state="false" identifier="" gpssid="0"/>
+    <fb ori="north" id="fb7" x="2" y="10" z="10" state="false" identifier="" gpssid="0"/>
+    <fb ori="north" id="fb8" x="4" y="10" z="10" state="false" identifier="" gpssid="0"/>
+    <fb ori="north" id="fb9" x="5" y="10" z="10" state="false" identifier="" gpssid="0"/>
+    <fb ori="north" id="fb10" x="2" y="5" z="10" state="false" identifier="" gpssid="0"/>
+    <fb ori="north" id="fb11" x="3" y="5" z="10" state="false" identifier="" gpssid="0"/>
+    <fb ori="north" id="fb12" x="4" y="5" z="10" state="false" identifier="" gpssid="0"/>
+    <fb ori="north" id="fb13" x="5" y="5" z="10" state="false" identifier="" gpssid="0"/>
+  </fblist>
+  <bklist>
+    <bk smallsymbol="true" id="bk9" x="28" y="20" z="10" entering="false" updateenterside="false" managerid="" shunting="false" fifoids="" embeddedfbplus="false" embeddedfbmin="false" locid="" state="open" pre_move_x="29" pre_move_y="20" pre_move_z="10" prev_id="bk10" desc="" platform="" len="0" lenenter2in="0" radius="0" offsetplus="0" offsetminus="0" departdelay="0" fifosize="0" fifogap="0" randomrate="10" electrified="false" gomanual="true" acceptghost="false" acceptident="false" terminalstation="false" wait="true" road="false" allowchgdir="true" extstop="false" allowbbt="true" bbtfix="0" mainline="false" sleeponclosed="false" freeblockonenter="false" freeblockonentermaxlen="0" freeblockonenterplus="true" freeblockonentermin="true" freeblockonenterroute="true" allowaccessoncars="true" centertrain="false" secondnextblock4wait="false" polarisation="true" rearprotection="false" commuter="yes" show="true" virtual="false" slaveblocks="" ttid="" codesen="" signal="" wsignal="" signalR="" wsignalR="" statesignal="" openblocksignal="false" openblockid="" openblocksignalR="false" openblockidR="" speed="cruise" exitspeed="cruise" noreduceonexit="false" stopspeed="mid" type="none" nonewaittype="" incline="0" waitmode="random" waitside="0" maxkmh="0" minwaittime="1" maxwaittime="30" waittime="10" mvscale="0" mvdistance="0" mvmph="false" mvrecord="false" evttimer="0" evttimer2="0" forceblocktimer="false" selectshortestblock="false" reservedevents="false" iid="" addr="0" port="0" td="false" tdV0="false" tdlinkblocks="true" typeperm="" class="" era="0"/>
+    <bk id="bk5" x="7" y="17" z="10" entering="false" updateenterside="false" managerid="" shunting="false" fifoids="" embeddedfbplus="false" embeddedfbmin="false" locid="" state="open" prev_id="bk20" desc="" platform="" len="0" lenenter2in="0" radius="0" offsetplus="0" offsetminus="0" departdelay="0" fifosize="0" fifogap="0" randomrate="10" electrified="false" gomanual="true" acceptghost="false" acceptident="false" terminalstation="false" wait="true" road="false" allowchgdir="true" smallsymbol="false" extstop="false" allowbbt="true" bbtfix="0" mainline="false" sleeponclosed="false" freeblockonenter="false" freeblockonentermaxlen="0" freeblockonenterplus="true" freeblockonentermin="true" freeblockonenterroute="true" allowaccessoncars="true" centertrain="false" secondnextblock4wait="false" polarisation="true" rearprotection="false" commuter="yes" show="true" virtual="false" slaveblocks="" ttid="" codesen="" signal="" wsignal="" signalR="" wsignalR="" statesignal="" openblocksignal="false" openblockid="" openblocksignalR="false" openblockidR="" speed="cruise" exitspeed="cruise" noreduceonexit="false" stopspeed="mid" type="none" nonewaittype="" incline="0" waitmode="random" waitside="0" maxkmh="0" minwaittime="1" maxwaittime="30" waittime="10" mvscale="0" mvdistance="0" mvmph="false" mvrecord="false" evttimer="0" evttimer2="0" forceblocktimer="false" selectshortestblock="false" reservedevents="false" iid="" addr="0" port="0" td="false" tdV0="false" tdlinkblocks="true" typeperm="" class="" era="0"/>
+    <bk id="bk1" x="2" y="6" z="10" entering="false" updateenterside="false" managerid="" shunting="false" fifoids="" embeddedfbplus="false" embeddedfbmin="false" locid="" state="open" ori="north" prev_id="bk3" desc="" platform="" len="0" lenenter2in="0" radius="0" offsetplus="0" offsetminus="0" departdelay="0" fifosize="0" fifogap="0" randomrate="10" electrified="false" gomanual="true" acceptghost="false" acceptident="false" terminalstation="false" wait="true" road="false" allowchgdir="true" smallsymbol="false" extstop="false" allowbbt="true" bbtfix="0" mainline="false" sleeponclosed="false" freeblockonenter="false" freeblockonentermaxlen="0" freeblockonenterplus="true" freeblockonentermin="true" freeblockonenterroute="true" allowaccessoncars="true" centertrain="false" secondnextblock4wait="false" polarisation="true" rearprotection="false" commuter="yes" show="true" virtual="false" slaveblocks="" ttid="" codesen="" signal="" wsignal="" signalR="" wsignalR="" statesignal="" openblocksignal="false" openblockid="" openblocksignalR="false" openblockidR="" speed="cruise" exitspeed="cruise" noreduceonexit="false" stopspeed="mid" type="none" nonewaittype="" incline="0" waitmode="random" waitside="0" maxkmh="0" minwaittime="1" maxwaittime="30" waittime="10" mvscale="0" mvdistance="0" mvmph="false" mvrecord="false" evttimer="0" evttimer2="0" forceblocktimer="false" selectshortestblock="false" reservedevents="false" iid="" addr="0" port="0" td="false" tdV0="false" tdlinkblocks="true" typeperm="" class="" era="0"/>
+    <bk id="bk2" x="3" y="6" z="10" entering="false" updateenterside="false" managerid="" shunting="false" fifoids="" embeddedfbplus="false" embeddedfbmin="false" locid="" state="open" ori="north" prev_id="bk21" desc="" platform="" len="0" lenenter2in="0" radius="0" offsetplus="0" offsetminus="0" departdelay="0" fifosize="0" fifogap="0" randomrate="10" electrified="false" gomanual="true" acceptghost="false" acceptident="false" terminalstation="false" wait="true" road="false" allowchgdir="true" smallsymbol="false" extstop="false" allowbbt="true" bbtfix="0" mainline="false" sleeponclosed="false" freeblockonenter="false" freeblockonentermaxlen="0" freeblockonenterplus="true" freeblockonentermin="true" freeblockonenterroute="true" allowaccessoncars="true" centertrain="false" secondnextblock4wait="false" polarisation="true" rearprotection="false" commuter="yes" show="true" virtual="false" slaveblocks="" ttid="" codesen="" signal="" wsignal="" signalR="" wsignalR="" statesignal="" openblocksignal="false" openblockid="" openblocksignalR="false" openblockidR="" speed="cruise" exitspeed="cruise" noreduceonexit="false" stopspeed="mid" type="none" nonewaittype="" incline="0" waitmode="random" waitside="0" maxkmh="0" minwaittime="1" maxwaittime="30" waittime="10" mvscale="0" mvdistance="0" mvmph="false" mvrecord="false" evttimer="0" evttimer2="0" forceblocktimer="false" selectshortestblock="false" reservedevents="false" iid="" addr="0" port="0" td="false" tdV0="false" tdlinkblocks="true" typeperm="" class="" era="0"/>
+    <bk ori="north" id="bk3" x="4" y="6" z="10" entering="false" updateenterside="false" managerid="" shunting="false" fifoids="" embeddedfbplus="false" embeddedfbmin="false" locid="" state="open" prev_id="bk21" desc="" platform="" len="0" lenenter2in="0" radius="0" offsetplus="0" offsetminus="0" departdelay="0" fifosize="0" fifogap="0" randomrate="10" electrified="false" gomanual="true" acceptghost="false" acceptident="false" terminalstation="false" wait="true" road="false" allowchgdir="true" smallsymbol="false" extstop="false" allowbbt="true" bbtfix="0" mainline="false" sleeponclosed="false" freeblockonenter="false" freeblockonentermaxlen="0" freeblockonenterplus="true" freeblockonentermin="true" freeblockonenterroute="true" allowaccessoncars="true" centertrain="false" secondnextblock4wait="false" polarisation="true" rearprotection="false" commuter="yes" show="true" virtual="false" slaveblocks="" ttid="" codesen="" signal="" wsignal="" signalR="" wsignalR="" statesignal="" openblocksignal="false" openblockid="" openblocksignalR="false" openblockidR="" speed="cruise" exitspeed="cruise" noreduceonexit="false" stopspeed="mid" type="none" nonewaittype="" incline="0" waitmode="random" waitside="0" maxkmh="0" minwaittime="1" maxwaittime="30" waittime="10" mvscale="0" mvdistance="0" mvmph="false" mvrecord="false" evttimer="0" evttimer2="0" forceblocktimer="false" selectshortestblock="false" reservedevents="false" iid="" addr="0" port="0" td="false" tdV0="false" tdlinkblocks="true" typeperm="" class="" era="0"/>
+    <bk ori="north" id="bk4" x="5" y="6" z="10" entering="false" updateenterside="false" managerid="" shunting="false" fifoids="" embeddedfbplus="false" embeddedfbmin="false" locid="" state="open" prev_id="bk22" desc="" platform="" len="0" lenenter2in="0" radius="0" offsetplus="0" offsetminus="0" departdelay="0" fifosize="0" fifogap="0" randomrate="10" electrified="false" gomanual="true" acceptghost="false" acceptident="false" terminalstation="false" wait="true" road="false" allowchgdir="true" smallsymbol="false" extstop="false" allowbbt="true" bbtfix="0" mainline="false" sleeponclosed="false" freeblockonenter="false" freeblockonentermaxlen="0" freeblockonenterplus="true" freeblockonentermin="true" freeblockonenterroute="true" allowaccessoncars="true" centertrain="false" secondnextblock4wait="false" polarisation="true" rearprotection="false" commuter="yes" show="true" virtual="false" slaveblocks="" ttid="" codesen="" signal="" wsignal="" signalR="" wsignalR="" statesignal="" openblocksignal="false" openblockid="" openblocksignalR="false" openblockidR="" speed="cruise" exitspeed="cruise" noreduceonexit="false" stopspeed="mid" type="none" nonewaittype="" incline="0" waitmode="random" waitside="0" maxkmh="0" minwaittime="1" maxwaittime="30" waittime="10" mvscale="0" mvdistance="0" mvmph="false" mvrecord="false" evttimer="0" evttimer2="0" forceblocktimer="false" selectshortestblock="false" reservedevents="false" iid="" addr="0" port="0" td="false" tdV0="false" tdlinkblocks="true" typeperm="" class="" era="0"/>
+    <bk id="bk6" x="17" y="19" z="10" entering="false" updateenterside="false" managerid="" shunting="false" fifoids="" embeddedfbplus="false" embeddedfbmin="false" locid="" state="open" prev_id="bk11" desc="" platform="" len="0" lenenter2in="0" radius="0" offsetplus="0" offsetminus="0" departdelay="0" fifosize="0" fifogap="0" randomrate="10" electrified="false" gomanual="true" acceptghost="false" acceptident="false" terminalstation="false" wait="true" road="false" allowchgdir="true" smallsymbol="false" extstop="false" allowbbt="true" bbtfix="0" mainline="false" sleeponclosed="false" freeblockonenter="false" freeblockonentermaxlen="0" freeblockonenterplus="true" freeblockonentermin="true" freeblockonenterroute="true" allowaccessoncars="true" centertrain="false" secondnextblock4wait="false" polarisation="true" rearprotection="false" commuter="yes" show="true" virtual="false" slaveblocks="" ttid="" codesen="" signal="" wsignal="" signalR="" wsignalR="" statesignal="" openblocksignal="false" openblockid="" openblocksignalR="false" openblockidR="" speed="cruise" exitspeed="cruise" noreduceonexit="false" stopspeed="mid" type="none" nonewaittype="" incline="0" waitmode="random" waitside="0" maxkmh="0" minwaittime="1" maxwaittime="30" waittime="10" mvscale="0" mvdistance="0" mvmph="false" mvrecord="false" evttimer="0" evttimer2="0" forceblocktimer="false" selectshortestblock="false" reservedevents="false" iid="" addr="0" port="0" td="false" tdV0="false" tdlinkblocks="true" typeperm="" class="" era="0"/>
+    <bk id="bk7" x="17" y="18" z="10" entering="false" updateenterside="false" managerid="" shunting="false" fifoids="" embeddedfbplus="false" embeddedfbmin="false" locid="" state="open" prev_id="bk12" desc="" platform="" len="0" lenenter2in="0" radius="0" offsetplus="0" offsetminus="0" departdelay="0" fifosize="0" fifogap="0" randomrate="10" electrified="false" gomanual="true" acceptghost="false" acceptident="false" terminalstation="false" wait="true" road="false" allowchgdir="true" smallsymbol="false" extstop="false" allowbbt="true" bbtfix="0" mainline="false" sleeponclosed="false" freeblockonenter="false" freeblockonentermaxlen="0" freeblockonenterplus="true" freeblockonentermin="true" freeblockonenterroute="true" allowaccessoncars="true" centertrain="false" secondnextblock4wait="false" polarisation="true" rearprotection="false" commuter="yes" show="true" virtual="false" slaveblocks="" ttid="" codesen="" signal="" wsignal="" signalR="" wsignalR="" statesignal="" openblocksignal="false" openblockid="" openblocksignalR="false" openblockidR="" speed="cruise" exitspeed="cruise" noreduceonexit="false" stopspeed="mid" type="none" nonewaittype="" incline="0" waitmode="random" waitside="0" maxkmh="0" minwaittime="1" maxwaittime="30" waittime="10" mvscale="0" mvdistance="0" mvmph="false" mvrecord="false" evttimer="0" evttimer2="0" forceblocktimer="false" selectshortestblock="false" reservedevents="false" iid="" addr="0" port="0" td="false" tdV0="false" tdlinkblocks="true" typeperm="" class="" era="0"/>
+    <bk ori="west" id="bk8" x="17" y="17" z="10" entering="false" updateenterside="false" managerid="" shunting="false" fifoids="" embeddedfbplus="false" embeddedfbmin="false" locid="" state="open" prev_id="bk13" desc="" platform="" len="0" lenenter2in="0" radius="0" offsetplus="0" offsetminus="0" departdelay="0" fifosize="0" fifogap="0" randomrate="10" electrified="false" gomanual="true" acceptghost="false" acceptident="false" terminalstation="false" wait="true" road="false" allowchgdir="true" smallsymbol="false" extstop="false" allowbbt="true" bbtfix="0" mainline="false" sleeponclosed="false" freeblockonenter="false" freeblockonentermaxlen="0" freeblockonenterplus="true" freeblockonentermin="true" freeblockonenterroute="true" allowaccessoncars="true" centertrain="false" secondnextblock4wait="false" polarisation="true" rearprotection="false" commuter="yes" show="true" virtual="false" slaveblocks="" ttid="" codesen="" signal="" wsignal="" signalR="" wsignalR="" statesignal="" openblocksignal="false" openblockid="" openblocksignalR="false" openblockidR="" speed="cruise" exitspeed="cruise" noreduceonexit="false" stopspeed="mid" type="none" nonewaittype="" incline="0" waitmode="random" waitside="0" maxkmh="0" minwaittime="1" maxwaittime="30" waittime="10" mvscale="0" mvdistance="0" mvmph="false" mvrecord="false" evttimer="0" evttimer2="0" forceblocktimer="false" selectshortestblock="false" reservedevents="false" iid="" addr="0" port="0" td="false" tdV0="false" tdlinkblocks="true" typeperm="" class="" era="0"/>
+    <bk id="bk10" x="7" y="20" z="10" entering="false" updateenterside="false" managerid="" shunting="false" fifoids="" embeddedfbplus="false" embeddedfbmin="false" locid="" state="open" prev_id="bk14" desc="" platform="" len="0" lenenter2in="0" radius="0" offsetplus="0" offsetminus="0" departdelay="0" fifosize="0" fifogap="0" randomrate="10" electrified="false" gomanual="true" acceptghost="false" acceptident="false" terminalstation="false" wait="true" road="false" allowchgdir="true" smallsymbol="false" extstop="false" allowbbt="true" bbtfix="0" mainline="false" sleeponclosed="false" freeblockonenter="false" freeblockonentermaxlen="0" freeblockonenterplus="true" freeblockonentermin="true" freeblockonenterroute="true" allowaccessoncars="true" centertrain="false" secondnextblock4wait="false" polarisation="true" rearprotection="false" commuter="yes" show="true" virtual="false" slaveblocks="" ttid="" codesen="" signal="" wsignal="" signalR="" wsignalR="" statesignal="" openblocksignal="false" openblockid="" openblocksignalR="false" openblockidR="" speed="cruise" exitspeed="cruise" noreduceonexit="false" stopspeed="mid" type="none" nonewaittype="" incline="0" waitmode="random" waitside="0" maxkmh="0" minwaittime="1" maxwaittime="30" waittime="10" mvscale="0" mvdistance="0" mvmph="false" mvrecord="false" evttimer="0" evttimer2="0" forceblocktimer="false" selectshortestblock="false" reservedevents="false" iid="" addr="0" port="0" td="false" tdV0="false" tdlinkblocks="true" typeperm="" class="" era="0"/>
+    <bk id="bk11" x="32" y="20" z="10" entering="false" updateenterside="false" managerid="" shunting="false" fifoids="" embeddedfbplus="false" embeddedfbmin="false" locid="" state="open"/>
+    <bk id="bk12" x="32" y="19" z="10" entering="false" updateenterside="false" managerid="" shunting="false" fifoids="" embeddedfbplus="false" embeddedfbmin="false" locid="" state="open"/>
+    <bk id="bk13" x="41" y="13" z="10" entering="false" updateenterside="false" managerid="" shunting="false" fifoids="" embeddedfbplus="false" embeddedfbmin="false" locid="" state="open" ori="north"/>
+  </bklist>
+  <ttlist/>
+  <locationlist>
+    <location id="Bahnhof" prev_id="Bahnhof" desc="" sectionpos="0" minocc="0" maxoccplus="0" maxoccmin="0" maxocc_commuter="0" maxocc_other="0" maxocc_lightgoods="0" maxocc_light="0" maxocc_regional="0" maxocc_local="0" maxocc_goods="0" maxocc_mixed="0" maxocc_ice="0" maxocc_post="0" maxocc_shunting="0" fifo="true" scheduletable="false" scheduletablepublish="true" scheduletablehtml="false" blocks="bk1,bk2,bk3,bk4" subblocks=""/>
+    <location id="Schattenbahnhof" prev_id="Schattenbahnhof" desc="" sectionpos="0" minocc="0" maxoccplus="0" maxoccmin="0" maxocc_commuter="0" maxocc_other="0" maxocc_lightgoods="0" maxocc_light="0" maxocc_regional="0" maxocc_local="0" maxocc_goods="0" maxocc_mixed="0" maxocc_ice="0" maxocc_post="0" maxocc_shunting="0" fifo="true" scheduletable="false" scheduletablepublish="true" scheduletablehtml="false" blocks="bk6,bk7,bk8" subblocks=""/>
+  </locationlist>
+</plan>
